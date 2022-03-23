@@ -39,7 +39,7 @@ Results as shown in the VS Code terminal and as copied to a text file:
 ![Terminal Code Results](electiontermresults.png) ![Text Code Results](electiontxtresults.png)
 
 ## Election Audit Summary
-Provided the proper documents, the script used to procure these results can be re-worked slightly to accommodate getting the results of other elections. By simply changing the file the code works from--in this case it was the [Election Results CSV](Resources/election_results.csv) file, as in the photo below--we can use this script for other elections. Making sure the columns listed in the file are the same as those in the [Election Results CSV](Resources/election_results.csv) file (e.g., Ballot ID, County, Candidate) and in the same order, as shown here:
+Provided the proper documents, the script, [PyPoll Challenge](PyPoll_Challenge.py), used to procure these results can be re-worked slightly to accommodate getting the results of other elections. By simply changing the file the code works from--in this case it was the [Election Results CSV](Resources/election_results.csv) file, as in the photo below--we can use this [script](PyPoll_Challenge.py) for other elections. Making sure the columns listed in the file are the same as those in the [Election Results CSV](Resources/election_results.csv) file (e.g., Ballot ID, County, Candidate) and in the same order, as shown here:
 
 ![Election Results CSV Screenshot](electionxclsss.png)
 
@@ -51,7 +51,7 @@ If the column order is different, it's a simple change of a few lines of code; l
 
 ![Variable Code](electioncode1.png)
 
-to align with whichever column in the csv file matches the variable needed in order for the code to work on a new set of data. For example, if the two listed above's columns were swapped, the code would instead then read, "candidate_name = [1]" and "county_name = [2]".
+to align with whichever column in the CSV file matches the variable needed in order for the code to work on a new set of data. For example, if the two listed above's columns were swapped, the code would then read, "candidate_name = [1]" and "county_name = [2]".
 
 ## Resources
 - Data Source: [Election Results CSV](Resources/election_results.csv)

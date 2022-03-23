@@ -46,7 +46,7 @@ Provided the proper documents, the script used to procure these results can be r
 
 ![Election Results CSV](electionxclss.png)
 
-You may not have to adjust anything but the folder location and file name--as listed in the code as shown below with "Resources","election_results.csv" and "analysis", "election_results.txt":
+You may not have to adjust anything but the folder location and file name--as listed in the code as shown below with "Resources", "election_results.csv" and "analysis", "election_results.txt":
 
 ![File Location Code](electioncode2.png)
 

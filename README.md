@@ -5,11 +5,11 @@ A Colorado Board of Elections employee has given the following tasks to complete
 
 1. Calculate the total number of votes cast.
 2. Provide the number of votes and percentage of total votes for each county in the precinct.
-2. Find the county with the largest voter turnout.
-3. Get a complete list of candidates who received votes.
-4. Calculate the total number of votes each candidate received.
-5. Calculate the percentage of votes each candidate won.
-6. Determine the winner of the election based on popular vote.
+3. Find the county with the largest voter turnout.
+4. Get a complete list of candidates who received votes.
+5. Calculate the total number of votes each candidate received.
+6. Calculate the percentage of votes each candidate won.
+7. Determine the winner of the election based on popular vote.
 
 ## Resources
 - Data Source: [Election Results CSV](Resources/election_results.csv)
@@ -26,6 +26,7 @@ The analysis of the election shows that:
   - Jefferson county reported at 10.5% of the total votes with 38,855 votes.
   - Denver county reported at 82.8% of the total votes with 306,055 votes.
   - Arapahoe county reported at 6.7% of the total votes with 24,801 votes.
+- The county with the largest voter turnout was Denver with 82.8% of the total votes at 306,055 votes.
 - The candidates were:
   - Charles Casper Stockham
   - Diana DeGette

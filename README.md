@@ -12,6 +12,10 @@ A Colorado Board of Elections employee has given the following tasks to complete
 7. Determine the winner of the election based on popular vote.
 
 ## Election Audit Results
+Results as shown in the Command Prompt and as copied to a text file, respectively:
+
+![Terminal Code Results](electioncmdresults2.jpg) ![Text Code Results](electiontxtresults.png)
+
 The analysis of the election shows that:
 - There were 369,711 votes cast in the election.
 - The counties involved in the election were:
@@ -33,10 +37,6 @@ The analysis of the election shows that:
   - Raymon Anthony Doane, who received 3.1% of the vote with 11,606 votes.
 - The winner of the election was:
   - Diana DeGette, who received 73.8% of the vote with 272,892 votes.
-
-Results as shown in the VS Code terminal and as copied to a text file:
-
-![Terminal Code Results](electiontermresults.png) ![Text Code Results](electiontxtresults.png)
 
 ## Election Audit Summary
 Provided the proper documents, the script, [PyPoll Challenge](PyPoll_Challenge.py), used to procure these results can be re-worked slightly to accommodate getting the results of other elections. By simply changing the file the code works from--in this case it was the [Election Results CSV](Resources/election_results.csv) file, as in the photo below--we can use this [script](PyPoll_Challenge.py) for other elections. Making sure the columns listed in the file are the same as those in the [Election Results CSV](Resources/election_results.csv) file (e.g., Ballot ID, County, Candidate) and in the same order, as shown here:

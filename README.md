@@ -12,8 +12,8 @@ A Colorado Board of Elections employee has given the following tasks to complete
 6. Determine the winner of the election based on popular vote.
 
 ## Resources
-- Data Source: election_results.csv
-- Software: Python 3.7.6, Visual Studio Code, 1.65.2 
+- Data Source: [Election Results CSV](Resources/election_results.csv)
+- Software: [Python](https://www.python.org/), 3.7.6, [Visual Studio Code](https://code.visualstudio.com/), 1.65.2
 
 ## Election Audit Results
 The analysis of the election shows that:
@@ -42,9 +42,16 @@ Results as shown in the terminal and as copied to a text file:
 ![Terminal Code Results](electiontermresults.png) ![Text Code Results](electiontxtresults.png)
 
 ## Election Audit Summary
-Provided the proper documents, the script used to procure these results can be re-worked slightly to accommodate getting the results of other elections. By simply changing the file the code works from--in this case it was the "election_results.csv" file, as in photo below--we can use this script for other elections. Making sure the columns listed in the file are the same as those in the election_results.csv file ![Election Results CSV](electionxclss.png) (e.g., Ballot ID, County, Candidate), and in the same order, you may not have to adjust anything but file name and location listed in the code as shown below:
+Provided the proper documents, the script used to procure these results can be re-worked slightly to accommodate getting the results of other elections. By simply changing the file the code works from--in this case it was the "election_results.csv" file, as in photo below--we can use this script for other elections. Making sure the columns listed in the file are the same as those in the election_results.csv file (e.g., Ballot ID, County, Candidate) and in the same order, as shown here:
+
+![Election Results CSV](electionxclss.png)
+
+You may not have to adjust anything but the folder location and file name--as listed in the code as shown below with "Resources","election_results.csv" and "analysis", "election_results.txt":
+
 ![File Location Code](electioncode2.png)
 
 If the column order is different, it's a simple change of a few lines of code; like changing the index number in the "candidate_name = [2]" and "county_name = [1]" variables, as shown here:
-![Variable Code](electioncode1.png) 
+
+![Variable Code](electioncode1.png)
+
 to align with whichever column in the csv file matches the variable needed in order for the code to work on a new set of data. For example, if the two listed above's columns were swapped, the code would instead then read, "candidate_name = [1]" and "county_name = [2]".

@@ -47,11 +47,11 @@ You may not have to adjust anything but the folder location and file name--as li
 
 ![File Location Code](electioncode2.png)
 
-If the column order is different, it's a simple change of a few lines of code; like changing the index number in the "candidate_name = [2]" and "county_name = [1]" variables, as shown here:
+If the column order is different, it's a simple change of a few lines of code; like changing the index number in the "candidate_name = row[2]" and "county_name = row[1]" variables, as shown here:
 
 ![Variable Code](electioncode1.png)
 
-to align with whichever column in the CSV file matches the variable needed in order for the code to work on a new set of data. For example, if the two listed above's columns were swapped, the code would then read, "candidate_name = [1]" and "county_name = [2]".
+to align with whichever column in the CSV file matches the variable needed in order for the code to work on a new set of data. For example, if the two listed above's columns were swapped, the code would then read, "candidate_name = row[1]" and "county_name = row[2]".
 
 ## Resources
 - Data Source: [Election Results CSV](Resources/election_results.csv)

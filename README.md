@@ -41,7 +41,7 @@ Results as shown in the VS Code terminal and as copied to a text file:
 ## Election Audit Summary
 Provided the proper documents, the script used to procure these results can be re-worked slightly to accommodate getting the results of other elections. By simply changing the file the code works from--in this case it was the [Election Results CSV](Resources/election_results.csv) file, as in the photo below--we can use this script for other elections. Making sure the columns listed in the file are the same as those in the [Election Results CSV](Resources/election_results.csv) file (e.g., Ballot ID, County, Candidate) and in the same order, as shown here:
 
-![Election Results CSV Screenshot](electionxclss.png)
+![Election Results CSV Screenshot](electionxclsss.png)
 
 You may not have to adjust anything but the folder location and file name--as listed in the code shown below with "Resources", "election_results.csv" and "analysis", "election_results.txt":
 

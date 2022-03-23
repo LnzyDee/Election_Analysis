@@ -12,7 +12,7 @@ A Colorado Board of Elections employee has given the following tasks to complete
 7. Determine the winner of the election based on popular vote.
 
 ## Election Audit Results
-Results from the script for the [PyPoll Challenge](PyPoll_Challenge.py) as shown in the Command Prompt and as copied to a text file, respectively:
+Results from the script for the [PyPoll Challenge](PyPoll_Challenge.py) as shown in the Command Prompt and as [Election Results](analysis/election_results.txt) copied to a text file, respectively:
 
 ![Terminal Code Results](electioncmdresults2.jpg) ![Text Code Results](electiontxtresults.png)
 
